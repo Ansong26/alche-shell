@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Enter filename"file
-read -p "Enter command"cmd
+read -p "Enter filename" file
+read -p "Enter command" cmd
 
 echo -e "#!/bin/bash\n${cmd}" > ${file}
 chmod u+x ${file}
