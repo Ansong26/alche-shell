@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%sn" {a..z}{a..z} | grep -v oo
+for i in {a..z}{a..z};do if [ $i != oo ];then echo $i;fi;done
