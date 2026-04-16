@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Working on 13-lets_parse_apache_logs, going apache, you will meet it in your career
+awk '{print $1, $9}' apache-access.log

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Working on 11-read_and_cut,lets show them we know thier details.
+while IFS= read -r line; do
+	cut -d: -f1,3,6 "$line"
+done

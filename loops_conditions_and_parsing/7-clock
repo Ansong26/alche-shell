@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Working on 7-clock,just for 12hours and 59 minutes, we will figure out seconds
+hour=0
+while [ $hour -lt 13 ]; do
+	echo "Hour: $hour"
+	min=1
+	while [ $min -lt 60 ]; do
+		echo "$min"
+	((min++))
+	done
+((hour++))
+done

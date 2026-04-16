@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Working on 14-dig_the-data, lets sort the data to get a better idea.
+awk '{print $1,$9}' apache-access.log | sort | uniq -c | sort -nr
